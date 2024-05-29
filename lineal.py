@@ -1,4 +1,4 @@
-numeros = [1, 2, 3, 7, 234, 5, 6, 2, 1, 23, 23, 52, 5, 34, 3, 34, 23]
+# numeros = [1, 2, 3, 7, 234, 5, 6, 2, 1, 23, 23, 52, 5, 34, 3, 34, 23]
 
 def busqueda_lineal(l, e):
     element = None
@@ -15,4 +15,4 @@ def busqueda_lineal(l, e):
 
     return f"Elemento '{element}' encontrado en la posición {position}"
 
-print(busqueda_lineal(numeros, 23))
+# print(busqueda_lineal(numeros, 23))

@@ -1,4 +1,4 @@
-numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 170]
+# numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 170]
 
 def busqueda_binaria(l, min, max, e):
     
@@ -15,4 +15,4 @@ def busqueda_binaria(l, min, max, e):
     if (l[half] > e):
         return busqueda_binaria(l, min, half-1, e)
 
-print(busqueda_binaria(numeros, 0, len(numeros)-1, 170))
+# print(busqueda_binaria(numeros, 0, len(numeros)-1, 170))
