@@ -4,12 +4,12 @@ from binaria import busqueda_binaria as bb
 
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 170, 1000, 3845, 5000, 10000]
 
-# Busqueda Lineal
+# Búsqueda Lineal
 inicio1 = time.perf_counter()
 print(bl(numeros, 170))
 fin1 = time.perf_counter()
 
-# Busqueda Binaria
+# Búsqueda Binaria
 inicio2 = time.perf_counter()
 print(bb(numeros, 0, len(numeros)-1, 170))
 fin2 = time.perf_counter()
